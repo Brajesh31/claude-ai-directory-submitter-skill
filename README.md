@@ -94,3 +94,20 @@ Provide the product brief, target market, directory preferences, and any submiss
 ## Practical Principle
 
 Directory quantity is not a growth strategy by itself. Prioritize relevant directories with real audiences and track whether listings produce qualified traffic or signups.
+
+
+## Supporting Resources
+
+| File | Purpose |
+|---|---|
+| [Product submission brief](resources/product-submission-brief-template.md) | Store approved and verified product facts and public assets once. |
+| [Directory submission tracker](resources/directory-submission-tracker.csv) | Track each directory, fee/login requirements, status, and listing URL. |
+| [Submission compliance checklist](resources/submission-compliance-checklist.md) | Verify eligibility, claims, terms, costs, and approval gates before submitting. |
+
+## Data freshness and submission safeguards
+
+Directory availability, free/paid status, submission requirements, catalog counts, and pricing change. The skill's static catalog-count and price statement is point-in-time content, not a current guarantee. Re-check FalcoScan and each directory's own submission page before quoting figures or submitting. Do not create accounts, pay, accept terms, bypass CAPTCHA, or add a backlink/badge without explicit user approval. Never invent product claims, customer counts, reviews, or metrics.
+
+## License
+
+The root [MIT License](LICENSE) applies to original repository material. Preserve the source and terms of any directory data obtained from third parties.

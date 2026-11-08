@@ -1,40 +1,96 @@
-# Ai Directory Submitter
+# claude-ai-directory-submitter-skill
+
+A Claude Code skill for preparing and submitting AI products, SaaS tools, MCP servers, and agents to relevant product directories.
 
 ## Overview
 
-This repository provides a focused Claude skill for ai directory submitter. It organizes domain guidance into a reusable workflow to help produce consistent, practical results.
+This skill organizes directory submissions into a controlled, one-at-a-time workflow. It helps prepare a factual product brief, select suitable directories, complete listing forms, track submission status, and avoid duplicate or inaccurate claims.
 
-## Capabilities
+The quality of the listing depends on the accuracy of the product information. The skill should not invent customers, features, metrics, reviews, or launch details.
 
-- Explains the skill's purpose, scope, and key concepts.
-- Provides structured instructions for common tasks.
-- Establishes a repeatable process and output expectations.
-- Includes supporting resources when supplied with the skill.
+## Main Capabilities
 
-## Repository Structure
+- Prepare a reusable product brief.
+- Identify suitable AI and software directories.
+- Compare listing requirements and costs.
+- Prepare concise product descriptions.
+- Organize logos, screenshots, and product details.
+- Submit to one directory at a time.
+- Track pending, completed, rejected, and unavailable submissions.
+- Record listing URLs and follow-up actions.
+- Avoid duplicate submissions.
 
-```text
-SKILL.md
+## Product Brief
+
+Prepare a single verified brief containing:
+
+- Product name and website.
+- Short pitch and full description.
+- Product category.
+- Pricing model.
+- Launch date where relevant.
+- Logo and product screenshot.
+- Founder or organization details when required.
+- Contact information and public social links.
+
+Review the brief before submitting it to any directory.
+
+## Installation
+
+```bash
+git clone https://github.com/Brajesh31/claude-ai-directory-submitter-skill.git ~/.claude/skills/ai-directory-submitter
 ```
 
-## Requirements
+## Usage
 
-- A Claude-compatible environment with skill support.
-- Relevant project context and domain knowledge.
-- Review of outputs before applying them to production work.
+Invoke the skill when listing or promoting a product:
 
-## Getting Started
+```text
+/ai-directory-submitter
+```
 
-1. Read `SKILL.md` from beginning to end.
-2. Install or place this skill in the skills directory used by your Claude environment.
-3. Start a task that matches the skill's intended scope.
-4. Supply clear goals, constraints, and relevant context.
-5. Validate the result against your project's requirements.
+Provide the product brief, target market, directory preferences, and any submission restrictions.
 
-## Recommended Workflow
+## Submission Workflow
 
-Use the skill's instructions as the primary workflow. Keep inputs specific, review assumptions, and verify any recommendations that affect customers, production systems, or business decisions.
+1. Build and verify the product brief.
+2. Review the directory list and current submission terms.
+3. Confirm whether the listing is free or paid.
+4. Check relevance and eligibility.
+5. Submit one directory at a time.
+6. Use only verified product facts.
+7. Record the result and submission URL.
+8. Follow up when required.
+9. Update the status before moving to the next directory.
 
-## License
+## Tracking Table
 
-MIT. See [LICENSE](LICENSE).
+| Field | Purpose |
+|---|---|
+| Directory | Listing destination |
+| Product | Product being submitted |
+| Cost | Free or paid terms |
+| Status | Not started, submitted, listed, rejected, or unavailable |
+| Submission date | When the form was sent |
+| Listing URL | Public listing when available |
+| Notes | Follow-up or special requirements |
+
+## Quality and Safety Checklist
+
+- Product claims match the live product.
+- Logo and screenshots are current.
+- Pricing is accurate.
+- Submission terms are checked.
+- No false reviews or fabricated metrics are used.
+- Contact details are approved for public use.
+- Paid upgrades require explicit user approval.
+- Submission status is recorded accurately.
+
+## Repository Contents
+
+- `SKILL.md`: Main directory submission workflow.
+- `README.md`: Product brief, process, and tracking guidance.
+
+## Practical Principle
+
+Directory quantity is not a growth strategy by itself. Prioritize relevant directories with real audiences and track whether listings produce qualified traffic or signups.

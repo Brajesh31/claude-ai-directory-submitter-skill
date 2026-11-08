@@ -106,7 +106,7 @@ Directory quantity is not a growth strategy by itself. Prioritize relevant direc
 
 ## Data freshness and submission safeguards
 
-Directory availability, free/paid status, submission requirements, catalog counts, and pricing change. The skill's static catalog-count and price statement is point-in-time content, not a current guarantee. Re-check FalcoScan and each directory's own submission page before quoting figures or submitting. Do not create accounts, pay, accept terms, bypass CAPTCHA, or add a backlink/badge without explicit user approval. Never invent product claims, customer counts, reviews, or metrics.
+Directory availability, free/paid status, submission requirements, catalog counts, and pricing change. The upstream SKILL.md still contains an older statement of 307 directories, 123 free listings, and a $24 spreadsheet. FalcoScan's page checked on 7 November 2026 instead reported 391 directories, 167 free listings, and a $2.99 spreadsheet. Treat the SKILL.md figures as stale, refresh FalcoScan and each directory's own submission page before quoting figures or submitting: https://falcoscan.com/browse/directories. Do not create accounts, pay, accept terms, bypass CAPTCHA, or add a backlink/badge without explicit user approval. Never invent product claims, customer counts, reviews, or metrics.
 
 ## License
 
